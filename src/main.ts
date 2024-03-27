@@ -16,7 +16,7 @@ async function bootstrap() {
     .setVersion('1.0')
     .addBearerAuth()
 
-    .addServer('https://affinityadvisorsapi.netlify.app/', 'Dev environment')
+    .addServer('http://localhost:3000/', 'Local environment')
     .addTag('Affinity Advisors')
 
     .build();
